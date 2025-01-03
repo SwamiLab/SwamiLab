@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book an Appointment</title>
+    <link rel="stylesheet" href="stylelab.css">
+</head>
+<body>
+  <nav>
+        <a href="index5.html">Home</a> |
+        <a href="lababout.html">About Us</a> |
+        <a href="researchlab.html">Research</a> |
+        <a href="labservices.html">Service</a> |
+        <a href="teamlab.html">Team</a> |
+        <a href="contactlab.html">Contact</a> |
+        <a href="bookinglab.html">Book Appointment</a>
+    </nav> 
+
+    <header>
+        <h1>Book an Appointment</h1>
+        <p>Schedule an appointment with one of our expert researchers.</p>
+    </header>
+    <form id="booking-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="date">Preferred Date:</label>
+        <input type="date" id="date" name="date" required>
+
+        <label for="time">Preferred Time:</label>
+        <input type="time" id="time" name="time" required>
+
+        <label for="message">Message (Optional):</label>
+        <textarea id="message" name="message"></textarea>
+
+        <button type="submit">Book Appointment</button>
+    </form>
+</body>
+</html>
